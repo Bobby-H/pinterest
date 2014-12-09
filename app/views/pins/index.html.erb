@@ -29,3 +29,6 @@
 <br>
 
 <%= link_to 'New Pin', new_pin_path %>
+
+<br>
+<%= link_to 'Delete all Pins', Pin, method: :delete, data: {confirm: 'Are you sure?'} %>
